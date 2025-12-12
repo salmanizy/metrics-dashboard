@@ -11,7 +11,7 @@ export const Sidebar = () => {
   ];
 
   return (
-    <div className="fixed left-8 top-32 bg-blue-600 rounded-full shadow-lg p-3 flex flex-col gap-4">
+    <div className="fixed left-8 top-32 z-3 bg-blue-600 rounded-full shadow-lg p-3 flex flex-col gap-4">
       {menuItems.map((item, index) => (
         <button
           key={index}

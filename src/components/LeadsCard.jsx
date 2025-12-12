@@ -12,7 +12,7 @@ export const LeadsCard = ({ count, dailyGoal, thisWeek, percentage, pieChartData
           </div>
           <div className="text-5xl font-bold mb-4">{count}</div>
 
-          <div className="space-y-1">
+          <div className="space-y-1 text-right">
             <div className="text-sm">
               <span className="font-semibold">{dailyGoal}%</span>
               <span className="text-gray-600 ml-2">Daily Goal</span>
