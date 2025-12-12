@@ -6,7 +6,9 @@ export const Header = () => {
     <header className="bg-white shadow-sm">
       <div className="max-w-7xl mx-auto px-8 py-4 flex items-center justify-between">
         <div className="flex items-center gap-2">
-          <a href="/" className='text-xl font-semibold'>Excuseme</a>
+          <a href="/" className='text-xl font-semibold'>
+            <img src="src/assets/Logo.svg" alt="Logo" />
+          </a>
         </div>
         <nav className="flex items-center gap-8">
           <a href="/" className="text-gray-700 hover:text-gray-900">Home</a>
